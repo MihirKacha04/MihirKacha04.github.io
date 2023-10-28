@@ -2,1199 +2,790 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <title>Trushar Radadiya</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i
+    |Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" 
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
 
-  <main>
+      <h1><a href="index.html">Trushar Radadiya</a></h1>
+      <h2>I'm a passionate <span>game developer</span> from India</h2>
 
-    <!--
-      - #SIDEBAR
-    -->
-
-    <aside class="sidebar" data-sidebar>
-
-      <div class="sidebar-info">
-
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
-        </figure>
-
-        <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
-
-          <p class="title">Web developer</p>
-        </div>
-
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
-
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
-
-      </div>
-
-      <div class="sidebar-info_more">
-
-        <div class="separator"></div>
-
-        <ul class="contacts-list">
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
-
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
-
-              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="1982-06-23">June 23, 1982</time>
-            </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
-
-              <address>Sacramento, California, USA</address>
-            </div>
-
-          </li>
-
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#resume">Resume</a></li>
+          <li><a class="nav-link" href="#services">Services</a></li>
+          <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
-
-        <div class="separator"></div>
-
-        <ul class="social-list">
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-    </aside>
-
-
-
-
-
-    <!--
-      - #main-content
-    -->
-
-    <div class="main-content">
-
-      <!--
-        - #NAVBAR
-      -->
-
-      <nav class="navbar">
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li>
-
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
-
-        </ul>
-
+        <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>
 
+      <div class="social-links">
+        <a href="https://github.com/TrusharRadadiya" target="_blank" class="github">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/trushar-radadiya-84972b1a3/" target="_blank" class="linkedin">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.instagram.com/gamedev.trushar/" target="_blank" class="instagram">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://join.skype.com/invite/p5wtbpnn5gil" target="_blank" class="google-plus">
+          <i class="bi bi-skype"></i>
+        </a>
+        <a href="https://www.youtube.com/@gamedev.trushar" target="_blank" class="youtube">
+          <i class="bi bi-youtube"></i>
+        </a>
+      </div>
 
+    </div>
+  </header>
+  <!-- End Header -->
 
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
 
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
 
-      <!--
-        - #ABOUT
-      -->
+      <div class="section-title">
+        <h2>About</h2>
+        <p>Learn more about me</p>
+      </div>
 
-      <article class="about  active" data-page="about">
-
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
-
-        <section class="about-text">
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="assets/img/me.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>Game Developer & Designer</h3>
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
+            Hi there! I am Trushar Radadiya, and I am a game developer & game designer 
+            with over 2 years of experience in this industry. I have a Bachelor's degree in Computer Application
+            from Veer Narmad South Gujarat University.
           </p>
-
           <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
+            I have worked on a variety of projects ranging from mobile games to AR/VR projects and many more.
+            I am skilled in Unity Game Engine, C# programming language, Audacity for sound designing, 
+            Adobe Photoshop & Illustrator for UI/UX & graphics, and VEED.io & Canva for video editing.
+            Currently, I am working on my video editing skills with Adobe Premiere Pro.
           </p>
-        </section>
+          <p>
+            In my free time, I enjoy staying up-to-date with the latest tech trends and working on personal games.
+            I also like to brainstorm new game mechanics and game ideas.
+          </p>
+          <p>
+            I am passionate about using my skills and knowledge to create innovative and engaging games, 
+            and am always looking for new opportunities to learn and grow as a developer.
+          </p>
+          <p>
+            When any client hires me my only goal is to solve their problem with the best practical solution
+            and delivering the best quality product.
+          </p>
+        </div>
+      </div>
 
+    </div>
+    <!-- End About Me -->
 
-        <!--
-          - service
-        -->
+    <!-- ======= Counts ======= -->
+    <!-- <div class="counts container">
 
-        <section class="service">
+      <div class="row">
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+        <div class="col-lg-3 col-md-6">
+          <div class="count-box">
+            <i class="bi bi-emoji-smile"></i>
+            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Happy Clients</p>
+          </div>
+        </div>
 
-          <ul class="service-list">
+        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+          <div class="count-box">
+            <i class="bi bi-journal-richtext"></i>
+            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Projects</p>
+          </div>
+        </div>
 
-            <li class="service-item">
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <i class="bi bi-headset"></i>
+            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Hours Of Support</p>
+          </div>
+        </div>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <i class="bi bi-award"></i>
+            <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Awards</p>
+          </div>
+        </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web design</h4>
+      </div>
 
-                <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
-                </p>
-              </div>
+    </div> -->
+    <!-- End Counts -->
 
-            </li>
+    <!-- ======= Skills  ======= -->
+    <div class="skills container">
 
-            <li class="service-item">
+      <div class="section-title">
+        <h2>Skills</h2>
+      </div>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
+      <div class="row skills-content">
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+        <div class="col-lg-4">
 
-                <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
-
-                <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        -->
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials modal
-        -->
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+          <div class="progress">
+            <span class="skill">Unity Game Engine <i class="val">75%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
+          </div>
 
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
+          <div class="progress">
+            <span class="skill">C# Programming Language <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
+          </div>
 
-          </section>
+          <div class="progress">
+            <span class="skill">Audacity <i class="val">75%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
 
         </div>
 
+        <div class="col-lg-4">
 
-        <!--
-          - clients
-        -->
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+          <div class="progress">
+            <span class="skill">Adobe Premiere Pro<i class="val">50%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-
-            <h3 class="h3">Education</h3>
           </div>
 
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
-
-              <span>2007 — 2008</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
-
-              <span>2006 — 2007</span>
-
-              <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
-
-              <span>2002 — 2004</span>
-
-              <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
+          <div class="progress">
+            <span class="skill">VEED.io <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
-
-            <h3 class="h3">Experience</h3>
           </div>
 
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Creative director</h4>
-
-              <span>2015 — Present</span>
-
-              <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Art director</h4>
-
-              <span>2013 — 2015</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Web designer</h4>
-
-              <span>2010 — 2013</span>
-
-              <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Web design</h5>
-                <data value="80">80%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Graphic design</h5>
-                <data value="70">70%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Branding</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">WordPress</h5>
-                <data value="50">50%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 50%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Applications</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Web development</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Applications</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Web development</button>
-              </li>
-
-            </ul>
-
+          <div class="progress">
+            <span class="skill">Canva <i class="val">100%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
           </div>
 
-          <ul class="project-list">
+        </div>
 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+        <div class="col-lg-4">
 
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Finance</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Orizon</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Fundo</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Brawlhalla</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
-                </figure>
-
-                <h3 class="project-title">DSM.</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">MetaSpark</h3>
-
-                <p class="project-category">Web design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Task Manager</h3>
-
-                <p class="project-category">Applications</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      -->
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+          <div class="progress">
+            <span class="skill">Abobe Photoshop <i class="val">45%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
             </div>
+          </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+          <div class="progress">
+            <span class="skill">Adobe Illustrator <i class="val">45%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
+        </div>
 
-          </form>
-
-        </section>
-
-      </article>
+      </div>
 
     </div>
+    <!-- End Skills -->
 
-  </main>
+    <!-- ======= Interests ======= -->
+    <div class="interests container">
 
+      <div class="section-title">
+        <h2>Interests</h2>
+      </div>
 
+      <div class="row">
+        <div class="col-lg-3 col-md-4">
+          <div class="icon-box">
+            <i class="ri-code-line" style="color: #ffa76e;"></i>
+            <h3>Game Development</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-code-box-line" style="color: #47aeff;"></i>
+            <h3>Programming</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-md-0">
+          <div class="icon-box">
+            <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
+            <h3>2D/3D Art</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4 mt-lg-0">
+          <div class="icon-box">
+            <i class="ri-image-edit-line" style="color: #4233ff;"></i>
+            <h3>Graphics Design</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-video-add-line" style="color: #11dbcf;"></i>
+            <h3>Video Editing</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-sound-module-line" style="color: #b2904f;"></i>
+            <h3>Music & Sound Production</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-play-mini-line" style="color: #ffbb2c;"></i>
+            <h3>Gaming</h3>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 mt-4">
+          <div class="icon-box">
+            <i class="ri-camera-2-line" style="color: #5578ff;"></i>
+            <h3>Cinema</h3>
+          </div>
+        </div>
+      </div>
 
+    </div>
+    <!-- End Interests -->
 
+    <!-- ======= Testimonials ======= -->
+    <div class="testimonials container">
 
+      <div class="section-title">
+        <h2>Testimonials</h2>
+      </div>
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
+      <!-- <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100"> -->
+      <div class="testimonials-slider" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper">
+          
+          <div class="row">
+            <!-- <div class="swiper-slide"> -->
+            <div class="col-lg-6">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  He has been very hardworking and the result was better than I expected. 
+                  I would recommend him and will be working with him again soon.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Kong Kraibhubes</h3>
+                <h4>Upwork Client</h4>
+              </div>
+            </div>
 
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <!-- <div class="swiper-slide"> -->
+            <div class="col-lg-6">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  I had the pleasure of working with Trushar on a project to create a mobile card game.
+                  Overall, I was extremely satisfied with his work and would not hesitate to work with him again in the future. 
+                  I highly recommend him for any Unity game development needs.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Jaydeep Anghan</h3>
+                <h4>Freelancer</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      <!-- <div class="swiper-pagination"></div> -->
+      </div>
+
+      <!-- <div class="owl-carousel testimonials-carousel"></div> -->
+
+    </div>
+    <!-- End Testimonials  -->
+
+  </section>
+  <!-- End About Section -->
+
+  <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Resume</h2>
+        <p>Check My Resume</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          
+          <h3 class="resume-title">Education</h3>
+          <div class="resume-item">
+            <h4>Bachelor of Computer Application</h4>
+            <h5>2018 - 2020</h5>
+            <p><em>Veer Narmad South Gujarat University, Surat, Gujarat</em></p>
+            <p>
+              <ul>
+                <li>Gained strong foundation in computer science and programming</li>
+                <li>
+                  Gained expertise in a range of programming languages, including C++, Java, and C#, 
+                  and completed coursework in data structures, database management, and computer networks
+                </li>
+                <li>
+                  Completed a capstone project in which I developed a web-based application which
+                  allowed me to apply my programming skills and learn about the full software development lifecycle
+                </li>
+              </ul>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="resume-title">Professional Experience</h3>
+          <div class="resume-item">
+            <h4>Senior Game Developer & Designer</h4>
+            <h5>2021 - 2022</h5>
+            <p><em>Reveralto Infotech, Surat, Gujarat</em></p>
+            <p>
+            <ul>
+              <li>
+                Developed numerous games (casual/hypercasual, multiplayer, 2D/3D games, 
+                augmented reality, and virtual reality).
+              </li>
+              <li>Lead in the design, development, and implementation of the game mechanics and gameplay</li>
+              <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+              <li>Recommended and consulted with clients on the most appropriate game design</li>
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- End Resume Section -->
+
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Services</h2>
+        <p>My Services</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-game"></i></div>
+            <h4><a href="">Full Game Development</a></h4>
+            <p>Full 2D/3D game creation from scratch to the play-store/app-store deployment with IAP & ads integration</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bxs-widget"></i></div>
+            <h4><a href="">Game Prototype Development</a></h4>
+            <p>Game prototype with core gameplay and main game mechanics</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-bug"></i></div>
+            <h4><a href="">Bug Fixing</a></h4>
+            <p>Bug, error and crash fixing like unity and C# errors, gameplay bugs, game crashing and many more</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-edit"></i></div>
+            <h4><a href="">Reskinning</a></h4>
+            <p>Change user interface, sound effects, BGM, particles and gameplay graphics</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-plus"></i></div>
+            <h4><a href="">Add New Features</a></h4>
+            <p>Add or design new features like new gameplay mechanics, UI changes, etc</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-add-to-queue"></i></div>
+            <h4><a href="">Level Designing</a></h4>
+            <p>Add new levels or edit existing one for any kind of games</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-upload"></i></div>
+            <h4><a href="">Deployment</a></h4>
+            <p>Uploading game to the google play store or apple app store</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-money"></i></div>
+            <h4><a href="">Monetization</a></h4>
+            <p>Integrate in-app purchase and any ad network or multiple ad network mediation</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box">
+            <div class="icon"><i class="bx bx-plug"></i></div>
+            <h4><a href="">Third Party Plug-in Integration</a></h4>
+            <p>
+              Add third party plugins or SDKs like firebase, one signal, google signin, apple signin and many more,
+              or create custom plugins for android, ios or webgl
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- End Services Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>My Works</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-client-project">Client Projects</li>
+            <li data-filter=".filter-home-product">Home Products</li>
+            <li data-filter=".filter-open-source">Personal Projects</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-client-project">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/248 Puzzle/Thumbnail.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>248 Puzzle</h4>
+              <p>Client Project</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/248 Puzzle/Thumbnail.jpg" data-gallery="portfolioGallery" 
+                  class="portfolio-lightbox"><i class="bx bx-search-alt-2"></i></a>
+                <a href="portfolios/248-puzzle.html" data-gallery="portfolioDetailsGallery" 
+                  data-glightbox="type: external" class="portfolio-details-lightbox" 
+                  title="Portfolio Details"><i class="bx bx-file"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-client-project">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Bit Eater/Thumbnail.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Bit Eater</h4>
+              <p>Client Project</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Bit Eater/Thumbnail.png" data-gallery="portfolioGallery" 
+                  class="portfolio-lightbox"><i class="bx bx-search-alt-2"></i></a>
+                <a href="portfolios/bit-eater.html" data-gallery="portfolioDetailsGallery" 
+                  data-glightbox="type: external" class="portfolio-details-lightbox" 
+                  title="Portfolio Details"><i class="bx bx-file"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-client-project">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Sokoball Dreams/Thumbnail.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Sokoball Dreams</h4>
+              <p>Client Project</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Sokoball Dreams/Thumbnail.jpg" data-gallery="portfolioGallery" 
+                  class="portfolio-lightbox"><i class="bx bx-search-alt-2"></i></a>
+                <a href="portfolios/sokoball-dreams.html" data-gallery="portfolioDetailsGallery" 
+                  data-glightbox="type: external" class="portfolio-details-lightbox" 
+                  title="Portfolio Details"><i class="bx bx-file"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-open-source">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Super Mario Bros/Thumbnail.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Super Mario Bros.</h4>
+              <p>Personal Project</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Super Mario Bros/Thumbnail.jpg" data-gallery="portfolioGallery" 
+                  class="portfolio-lightbox"><i class="bx bx-search-alt-2"></i></a>
+                <a href="portfolios/super-mario-bros.html" data-gallery="portfolioDetailsGallery" 
+                  data-glightbox="type: external" class="portfolio-details-lightbox" 
+                  title="Portfolio Details"><i class="bx bx-file"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-open-source">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/2 Cars 3D/Thumbnail.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>2 Cars 3D</h4>
+              <p>Personal Project</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/2 Cars 3D/Thumbnail.jpg" data-gallery="portfolioGallery" 
+                  class="portfolio-lightbox"><i class="bx bx-search-alt-2"></i></a>
+                <a href="portfolios/2-cars-3d.html" data-gallery="portfolioDetailsGallery" 
+                  data-glightbox="type: external" class="portfolio-details-lightbox" 
+                  title="Portfolio Details"><i class="bx bx-file"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-client-project">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Tap Drifter/Thumbnail.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Tap Drifter</h4>
+              <p>Client Project</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Tap Drifter/Thumbnail.png" data-gallery="portfolioGallery" 
+                  class="portfolio-lightbox"><i class="bx bx-search-alt-2"></i></a>
+                <a href="portfolios/tap-drifter.html" data-gallery="portfolioDetailsGallery" 
+                  data-glightbox="type: external" class="portfolio-details-lightbox" 
+                  title="Portfolio Details"><i class="bx bx-file"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-home-product">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Tic Tac Toe/Thumbnail.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Tic Tac Toe: Cross & Nought</h4>
+              <p>Home Product</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Tic Tac Toe/Thumbnail.jpg" data-gallery="portfolioGallery" 
+                  class="portfolio-lightbox"><i class="bx bx-search-alt-2"></i></a>
+                <a href="portfolios/tic-tac-toe-cross-&-nought.html" data-gallery="portfolioDetailsGallery" 
+                  data-glightbox="type: external" class="portfolio-details-lightbox" 
+                  title="Portfolio Details"><i class="bx bx-file"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-open-source">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Gun Sprint/Thumbnail.png" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Gun Sprint</h4>
+              <p>Personal Project</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Gun Sprint/Thumbnail.png" data-gallery="portfolioGallery" 
+                  class="portfolio-lightbox"><i class="bx bx-search-alt-2"></i></a>
+                <a href="portfolios/gun-sprint.html" data-gallery="portfolioDetailsGallery" 
+                  data-glightbox="type: external" class="portfolio-details-lightbox" 
+                  title="Portfolio Details"><i class="bx bx-file"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-open-source">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Fruit Ninja/Thumbnail.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Fruit Ninja</h4>
+              <p>Personal Project</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Fruit Ninja/Thumbnail.jpg" data-gallery="portfolioGallery" 
+                  class="portfolio-lightbox"><i class="bx bx-search-alt-2"></i></a>
+                <a href="portfolios/fruit-ninja.html" data-gallery="portfolioDetailsGallery" 
+                  data-glightbox="type: external" class="portfolio-details-lightbox" 
+                  title="Portfolio Details"><i class="bx bx-file"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-open-source">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Arcade Snake/Thumbnail.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Snake</h4>
+              <p>Personal Project</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Arcade Snake/Thumbnail.jpg" data-gallery="portfolioGallery" 
+                  class="portfolio-lightbox"><i class="bx bx-search-alt-2"></i></a>
+                <a href="portfolios/snake.html" data-gallery="portfolioDetailsGallery" 
+                  data-glightbox="type: external" class="portfolio-details-lightbox" 
+                  title="Portfolio Details"><i class="bx bx-file"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-open-source">
+          <div class="portfolio-wrap">
+            <img src="assets/img/portfolio/Tetris/Thumbnail.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Tetris</h4>
+              <p>Personal Project</p>
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Tetris/Thumbnail.jpg" data-gallery="portfolioGallery" 
+                  class="portfolio-lightbox"><i class="bx bx-search-alt-2"></i></a>
+                <a href="portfolios/tetris.html" data-gallery="portfolioDetailsGallery" 
+                  data-glightbox="type: external" class="portfolio-details-lightbox" 
+                  title="Portfolio Details"><i class="bx bx-file"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- End Portfolio Section -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Contact Me</p>
+      </div>
+
+      <div class="row mt-2">
+
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Email Me</h3>
+            <p>trusharradadiya1705@outlook.com</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-phone-call"></i>
+            <h3>Call Me</h3>
+            <p>+91 81405 41942</p>
+          </div>
+        </div>
+        
+        <div class="col-md-12 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3>Social Profiles</h3>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/trushar-radadiya-84972b1a3/" target="_blank" class="linkedin">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/gamedev.trushar/" target="_blank" class="instagram">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="https://join.skype.com/invite/p5wtbpnn5gil" target="_blank" class="google-plus">
+                <i class="bi bi-skype"></i>
+              </a>
+              <a href="https://www.youtube.com/@gamedev.trushar" target="_blank" class="youtube">
+                <i class="bi bi-youtube"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
 
