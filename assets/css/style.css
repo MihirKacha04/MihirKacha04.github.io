@@ -974,6 +974,7 @@ main {
   border-radius: 14px;
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
+  display: none;
 }
 
 .filter-select.active .select-icon {
